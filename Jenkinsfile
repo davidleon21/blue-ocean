@@ -4,7 +4,7 @@ pipeline {
     stage('compilar') {
       steps {
         echo 'compilando '
-        bat 'Get-Date -Format'
+        bat 'Get-Date -Format "dd/MM/yyyy"'
       }
     }
 
